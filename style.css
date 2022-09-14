@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+}
+.btnContainer button {
+      padding: 1rem 2rem;
+      cursor: pointer;
+      border: 2px solid black;
+      outline: none;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 22px;
+    animation: 2s all ease-in;
+}
+.ownbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.myBox {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 14px;
+    overflow: scroll;
+}
+#hexcoded{
+    text-align: center;
+}
+button:hover{
+    background-color: white;
+}
